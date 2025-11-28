@@ -2366,6 +2366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2414760065463789371}
   - component: {fileID: 4392476172712026349}
+  - component: {fileID: 5613852243483377052}
   m_Layer: 0
   m_Name: Vampire
   m_TagString: Untagged
@@ -2424,6 +2425,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5613852243483377052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3749520830452491182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be90db0a98ecf00d5ac377304bb5416e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationControl
 --- !u!1 &3827449922898721328
 GameObject:
   m_ObjectHideFlags: 0

@@ -4471,6 +4471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6023269985272622257}
   - component: {fileID: 3019567693406315255}
+  - component: {fileID: -7147238093882524721}
   m_Layer: 0
   m_Name: Knight
   m_TagString: Untagged
@@ -4537,6 +4538,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-7147238093882524721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6768004614635855725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be90db0a98ecf00d5ac377304bb5416e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationControl
 --- !u!1 &6778137056095493730
 GameObject:
   m_ObjectHideFlags: 0
