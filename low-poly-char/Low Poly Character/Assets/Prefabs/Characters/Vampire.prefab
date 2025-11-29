@@ -1975,6 +1975,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1853639397009368419}
+  - component: {fileID: 9029308732328898136}
   m_Layer: 0
   m_Name: Hand.R
   m_TagString: Untagged
@@ -2002,6 +2003,22 @@ Transform:
   - {fileID: 5520415122673347290}
   m_Father: {fileID: 7510874700231564437}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9029308732328898136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3430771494015247437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff8d33d0b211566aa7d9b2259781eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponHand
+  weaponPrefabs:
+  - {fileID: 752121554156874767, guid: 92a5432c397df4d03b916b1d448c4df3, type: 3}
+  - {fileID: 7079201440497299056, guid: 99b775b3ddc7b7c328504ebd993f5cca, type: 3}
+  - {fileID: 7130761840861345951, guid: c266efa3c11424a43b9e1080e72d6089, type: 3}
 --- !u!1 &3458181602301061053
 GameObject:
   m_ObjectHideFlags: 0
